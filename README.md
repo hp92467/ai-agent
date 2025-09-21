@@ -3,6 +3,9 @@
 ## 项目概述
 
 这是一个基于Spring AI和Vue.js构建的智能旋转机械故障诊断系统，专门用于风机、泵、轴承、齿轮箱、电机等旋转设备的故障诊断和预测性维护。系统集成了先进的AI技术、RAG（检索增强生成）知识库、向量数据库和多种诊断工具，为工业设备维护提供智能化的解决方案。
+<img width="1187" height="741" alt="image" src="https://github.com/user-attachments/assets/af3e07de-85c4-499c-8e34-9876cde6e7dd" />
+<img width="1200" height="971" alt="image" src="https://github.com/user-attachments/assets/15fbb79f-6428-4e6d-a503-e3fa79611e41" />
+
 
 ## 🏗️ 技术架构
 
