@@ -28,14 +28,14 @@ public class AiController {
     @Resource
     private ChatModel dashscopeChatModel;
 
-    @GetMapping("/love_app/chat/sync")
+    @GetMapping("/app/chat/sync")
     public String doChatWithLoveAppSync(String message, String chatId) {
 
         return myApp.doChat(message, chatId);
     }
 
 
-    @GetMapping(value = "/love_app/chat/sse")
+    @GetMapping(value = "/app/chat/sse")
     public Flux<ServerSentEvent<String>> doChatWithLoveAppSSE(String message, String chatId) {
         return myApp.doChatByStream(message, chatId)
                 .map(chunk -> ServerSentEvent.<String>builder()
@@ -43,7 +43,7 @@ public class AiController {
                         .build());
     }
 
-    @GetMapping("/love_app/chat/sse/emitter")
+    @GetMapping("/app/chat/sse/emitter")
     public SseEmitter doChatWithLoveAppSseEmitter(String message, String chatId) {
 
         SseEmitter emitter = new SseEmitter(180000L);
