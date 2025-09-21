@@ -215,22 +215,13 @@ ai-agent/
     └── document/           # 知识库文档
 ```
 
-## 🤝 贡献指南
 
-1. Fork 项目
-2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开 Pull Request
 
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
 
 ## 📞 联系方式
 
 - 项目维护者: HP
-- 邮箱: [您的邮箱]
-- 项目链接: [项目仓库地址]
+- 邮箱: hp92467@163.com
+- 项目链接: (https://github.com/hp92467/ai-agent)
 
 ---
