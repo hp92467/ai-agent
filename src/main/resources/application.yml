@@ -13,7 +13,7 @@ spring:
         model: qwq-plus
     mcp:
       client:
-        request-timeout: 30s
+        request-timeout: 30秒
         stdio:
           servers-configuration: classpath:mcp-servers.json
 #    vectorstore:
@@ -24,7 +24,7 @@ spring:
 #        max-document-batch-size: 10000
 #  ai:
 #    openai:
-#      api-key: sk-clrabotwvlprccqebhlktqivaacslevtklosifdvxbalikdq
+#      api-key: 
 #      base-url: https://api.siliconflow.cn/v1/chat/completions
 #      chat:
 #        options:
